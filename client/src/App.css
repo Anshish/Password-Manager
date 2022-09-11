@@ -1,0 +1,84 @@
+body{
+  background-color: #95ecfb;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.AddingPassword{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6acad;
+  width: 60%;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+
+.AddingPassword button,input{
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  margin: 10px;
+  padding-left: 15px;
+  font-size: 17px;
+  background-color: beige;
+}
+
+button{
+  cursor: pointer;
+}
+
+.Password{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.password{
+  width: 100%;
+  height: 70px;
+  background-color: beige;
+  border-radius: 20px;
+  color:dimgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.deleteIcon{
+  margin-left: 20px;
+
+}
+
+.heading{
+  font-family: 'Rubik', sans-serif;
+  size: 100;
+}
+
+.headingText{
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+  color:rgb(16, 32, 134);
+}
+
+.joint{
+  display: flex;
+  margin: 100px;
+  align-items: center;
+
+}
